@@ -1,9 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet'
 
 function Abouter() {
   return (
-    <><div className="home">
+    <>
+    <Helmet>
+          <title>Gmail Docs</title>
+        </Helmet>
+    <div className="home">
       <div class="container">
         <h1 className="text-center mt-5">Gmail Docs</h1>
       </div>
