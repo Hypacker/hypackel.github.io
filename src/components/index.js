@@ -6,4 +6,4 @@ export { default as Contact } from "./Contact";
 export { default as Blog } from "./blog/Blog";
 export { default as Posts } from "./blog/Posts";
 export { default as Post } from "./blog/Post";
-export { default as Abouter } from "./About/about";
+export { default as Docs } from "./docs/docs";

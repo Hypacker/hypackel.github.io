@@ -7,7 +7,11 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            Accumatic
+          <img
+  src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_2x_r2.png"
+  style={{ height: "50px" }}
+/>
+
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
@@ -33,7 +37,7 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/About/about">
+                <NavLink className="nav-link" to="/docs">
                   Docs
                 </NavLink>
               </li>
